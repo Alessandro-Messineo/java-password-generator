@@ -1,18 +1,21 @@
-## Getting Started
+# Java Password Generator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Consegna
 
-## Folder Structure
+**Repo:** `java-password-generator`
 
-The workspace contains two folders by default, where:
+### Attività richieste
+- Create un nuovo progetto Java chiamato `java-password-generator`
+- Aggiungete un package `org.lessons.java.security`
+- Aggiungete una classe `PasswordGenerator` che contenga un metodo `main`
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Descrizione del programma
+Il programma deve fare quanto segue:
+- Salvare in opportune variabili il **nome**, **cognome**, **colore preferito** e la **data di nascita** di un utente, suddivisa in **giorno**, **mese** e **anno** (in formato numerico)
+- Generare e stampare a video una **password** concatenando:
+  - nome
+  - cognome
+  - colore preferito
+  - la somma di giorno, mese e anno di nascita  
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+  Tutti i valori devono essere separati dal carattere `-`
